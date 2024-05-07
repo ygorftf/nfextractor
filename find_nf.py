@@ -1,5 +1,6 @@
 from tkinter import filedialog
 from PyPDF2 import PdfReader
+
 def find_nf():
     pdf_path = filedialog.askopenfilename()
     with open(pdf_path, "rb") as pdf:
