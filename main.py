@@ -1,5 +1,5 @@
 from tkinter import filedialog
-from packages import find_nf as find
+from util import find_nf as find
 
 def main():
     with filedialog.askopenfilename(title="Selecione o arquivo para ser extraido", filetypes=[('portable document format','*.pdf')]) as open:
