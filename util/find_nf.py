@@ -17,5 +17,5 @@ def find_nf(path):
                     test = False
         return txt
 
-if __name__ == "__find_nf__":
+if __name__ == "__main__":
     find_nf()
